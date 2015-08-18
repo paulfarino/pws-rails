@@ -1,0 +1,21 @@
+// GLOBAL
+html,
+body {
+    height: 100%;
+    background: $grey60;
+    font-size: 16px;
+}
+
+// HEADER
+header {
+    height: 72px;
+    background-color: $white;
+}
+.logo {
+    margin-top: 20px;
+}
+
+// CONTENT
+.title {
+    color: $dark;
+}

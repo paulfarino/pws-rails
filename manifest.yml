@@ -1,0 +1,8 @@
+---
+applications:
+- name: your-app-name
+  memory: 256M
+  instances: 1
+  path: .
+  command: bundle exec rake db:migrate && bundle exec rails s -p $PORT
+  buildpack: https://github.com/cloudfoundry/ruby-buildpack.git
