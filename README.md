@@ -19,8 +19,6 @@ You’ll need to have an active Pivotal Web Services account for the following. 
 
 ### What's included
 - [Bootstrap](http://getbootstrap.com/)
-- [Live Reload](https://github.com/guard/guard-livereload)
-- [Forgery](https://github.com/sevenwire/forgery) - To fake data. Included a custom library and dictionaries. Update `mock_data.rb` in `app > lib > forgery > forgeries > mock_data.rb` & update the `dictionaries` in `app > lib > forgery > dictionaries > mock_data.rb`
 - Basic Authentication - Uncomment `http_basic_authenticate_with :name => "admin", :password => "password1234"` in `app > controllers > application_controller.rb`
 
 
